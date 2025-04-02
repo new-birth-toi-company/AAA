@@ -1,0 +1,26 @@
+{
+  "name": "AnimatedDisplay",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.ts",
+  "main": "dist/AnimatedDisplay.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.5.2",
+  "dependencies": {
+    "blockbench-types": "^4.12.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.0"
+  },
+  "targets": {
+    "main": {
+		  "optimize": true
+	  }
+  }
+}

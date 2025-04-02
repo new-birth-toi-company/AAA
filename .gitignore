@@ -1,0 +1,21 @@
+# Ignore build artifacts
+dist/
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+
+# Ignore VS Code files
+.vscode/
+
+# Ignore pnpm files
+node_modules/
+.pnpm-store/
+pnpm-lock.yaml
+
+# Ignore parcel files
+.parcel-cache/
